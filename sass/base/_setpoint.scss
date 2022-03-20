@@ -1,0 +1,59 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav__menu__list,
+.container__qualities,
+.offers__list,
+.team,
+.projects__filter__list,
+.projects__portfolio__list,
+.footer__contacts__list {
+  list-style-type: none;
+}
+
+button {
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+
+section {
+  padding: 94px 0;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}

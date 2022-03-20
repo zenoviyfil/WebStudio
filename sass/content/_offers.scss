@@ -1,0 +1,57 @@
+.offers__section {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.offers__container {
+  display: block;
+}
+
+.offers__list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.offers__list__item {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: 30px;
+}
+
+.offers__list__item {
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+.offers__list__item {
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.offers__list__item__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.8);
+  left: 0;
+  bottom: 0;
+}

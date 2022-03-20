@@ -1,0 +1,292 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is__hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop.is__hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+.backdrop__modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 528px;
+  padding: 40px;
+  background: $white-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal__close__btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  right: 8px;
+  top: 8px;
+  border-radius: 50%;
+  background: $white-color;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__close__btn {
+  .close__btn__icon {
+    width: 11px;
+    height: 11px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.modal__close__btn {
+  &:hover,
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $link-color;
+  }
+}
+
+.modal__header {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $principal-text-color;
+}
+
+.inputs__container__list {
+  list-style: none;
+  margin-top: 12px;
+}
+
+.inputs__container__item {
+  margin-top: 10px;
+}
+
+.inputs__container__item {
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.inputs__container__item {
+  .inputs__form__label {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: $secondary-text-color;
+  }
+}
+
+.inputs__container__item {
+  .inputs__form__input {
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    padding-left: 42px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+}
+
+.inputs__container__item {
+  .inputs__textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 4px;
+    padding: 12px 16px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+}
+
+.inputs__container__item {
+  textarea::placeholder {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+
+.policy__checkbox {
+  position: relative;
+  width: 425px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.policy__checkbox__icon {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  left: 0;
+  transform: translateY(20%);
+  pointer-events: none;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.policy__checkbox__input {
+  &:checked + .policy__checkbox__icon {
+    background-color: $link-color;
+    background-origin: border-box;
+    border: transparent;
+  }
+}
+
+.policy__checkbox__input {
+  appearance: none;
+}
+
+.policy__checkbox {
+  .policy__checkbox__label {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
+    margin-left: auto;
+  }
+}
+
+.policy__doc {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: $link-color;
+}
+
+.modal__send__btn {
+  display: flex;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  color: $white-color;
+  background: $link-color;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 55px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.inputs__container__item {
+  .inputs__icon__name {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 107px;
+    left: 56px;
+    transform: translateY(+50%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.inputs__container__item {
+  .inputs__icon__tel {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 180px;
+    left: 56px;
+    transform: translateY(+50%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.inputs__container__item {
+  .inputs__icon__email {
+    position: absolute;
+    width: 15px;
+    height: 12px;
+    top: 253px;
+    left: 56px;
+    transform: translateY(+50%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.inputs__form__input {
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: $link-color;
+  }
+}
+
+.footer-submit {
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: $link-color;
+  }
+}
+
+.inputs__textarea {
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: $link-color;
+  }
+}
+
+.inputs__form__input {
+  &:focus + .inputs__icon__name {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $link-color;
+  }
+}
+
+.inputs__form__input {
+  &:focus + .inputs__icon__tel {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $link-color;
+  }
+}
+
+.inputs__form__input {
+  &:focus + .inputs__icon__email {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $link-color;
+  }
+}
+
+.inputs__form__input {
+  &:focus {
+    cursor: pointer;
+    border: 1px solid $link-color;
+  }
+}

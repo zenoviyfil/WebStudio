@@ -1,0 +1,39 @@
+$link-color: #2196f3;
+$principal-text-color: #212121;
+$secondary-text-color: #757575;
+$white-color: #fff;
+$black-color: #000;
+$filter-btn-color: #f5f4fa;
+$footer-contacts-color: rgba(255, 255, 255, 0.6);
+$bck-grnd-color: #e5e5e5;
+$theme-color: #2f303a;
+$svg-color: #afb1b8;
+$header-border-color: #ececec;
+$background-img-color: #eeeeee;
+
+.active {
+  &::after {
+    position: absolute;
+    content: "";
+    width: 48px;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    background-color: $link-color;
+  }
+}
+
+.section__header {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: $principal-text-color;
+  text-align: center;
+}
+
+.project__container {
+  display: block;
+}
