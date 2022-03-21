@@ -470,13 +470,12 @@ a.tel__link__header:focus .smartphone {
   line-height: 1.36;
   color: #fff;
   text-transform: uppercase;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .hero__main__theme {
     font-family: "Roboto";
     font-style: normal;
@@ -486,7 +485,7 @@ a.tel__link__header:focus .smartphone {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 360px;
+    padding: 0px 60px;
     margin-right: auto;
     margin-left: auto;
   }
