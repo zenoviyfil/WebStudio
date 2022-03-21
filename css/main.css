@@ -499,6 +499,7 @@ a.tel__link__header:focus .smartphone {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
+  letter-spacing: 0.06em;
   color: #fff;
   background: #2196f3;
   border-radius: 4px;
@@ -516,5 +517,99 @@ a.tel__link__header:focus .smartphone {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container__qualities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .container__qualities {
+    display: block;
+  }
+}
+
+.qualities__item {
+  width: 270px;
+}
+
+@media screen and (max-width: 768px) {
+  .qualities__item {
+    width: 450px;
+  }
+}
+
+.qualities__item:nth-child(-n + 3) {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .qualities__item {
+    margin: 0;
+  }
+}
+
+.qualities__description__header {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 30px;
+}
+
+.qualities__description__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+
+.qualities__list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .qualities__list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 450px;
+    height: 120px;
+    padding: 25px 190px;
+  }
+}
+
+.qualities__list__item:hover, .qualities__list__item:focus {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.qualities__svg__icon {
+  width: 70px;
+  height: 70px;
 }
 /*# sourceMappingURL=main.css.map */
