@@ -11,6 +11,11 @@
 
   @media screen and(max-width:768px) {
     width: 450px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -20,7 +25,11 @@
   }
 
   @media screen and(max-width:768px) {
-    margin: 0;
+    .qualities__item {
+      &:nth-child(-n + 3) {
+        margin-right: 0;
+      }
+    }
   }
 }
 
@@ -32,6 +41,11 @@
   text-transform: uppercase;
   color: $principal-text-color;
   margin-top: 30px;
+
+  @media screen and(max-width:768px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .qualities__description__text {

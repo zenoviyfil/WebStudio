@@ -41,7 +41,7 @@ button:hover, button:focus {
 }
 
 section {
-  padding: 94px 0;
+  padding: 60px 0;
 }
 
 .container {
@@ -538,6 +538,10 @@ a.tel__link__header:focus .smartphone {
 @media screen and (max-width: 768px) {
   .qualities__item {
     width: 450px;
+    margin-bottom: 30px;
+  }
+  .qualities__item:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -546,8 +550,8 @@ a.tel__link__header:focus .smartphone {
 }
 
 @media screen and (max-width: 768px) {
-  .qualities__item {
-    margin: 0;
+  .qualities__item .qualities__item:nth-child(-n + 3) {
+    margin-right: 0;
   }
 }
 
@@ -559,6 +563,17 @@ a.tel__link__header:focus .smartphone {
   text-transform: uppercase;
   color: #212121;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .qualities__description__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .qualities__description__text {
