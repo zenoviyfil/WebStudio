@@ -22,6 +22,10 @@ $background-img-color: #eeeeee;
     transform: translate(-50%, -50%);
     border-radius: 2px;
     background-color: $link-color;
+
+    @media screen and(max-width:768px) {
+      display: none;
+    }
   }
 }
 

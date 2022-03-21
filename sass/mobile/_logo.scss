@@ -1,0 +1,27 @@
+.logo__link {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $link-color;
+  padding: 24px 0px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__logo__link__color {
+  color: $black-color;
+}
+
+.footer__logo__link__color {
+  color: $white-color;
+}
+
+.logo__link {
+  &:hover,
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}

@@ -1,7 +1,5 @@
 @import "./base/setpoint";
 @import "./utils/variables";
-@import "./content/logo";
-@import "./content/header";
-@import "./content/menu-portfolio";
-@import "./content/portfolio-items";
-@import "./content/footer";
+@import "./computer/forimport-portfolio";
+@import "./tablet/forimport-portfolio";
+@import "./mobile/forimport-portfolio";
