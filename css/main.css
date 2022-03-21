@@ -251,7 +251,8 @@ a.tel__link__header:focus {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a.mail__link__header:hover .envelope, a.mail__link__header:focus .envelope,
+a.mail__link__header:hover .envelope,
+a.mail__link__header:focus .envelope,
 a.mail__link__header:hover .envelope,
 a.mail__link__header:focus .envelope {
   fill: #2196f3;
@@ -261,7 +262,8 @@ a.mail__link__header:focus .envelope {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a.tel__link__header:hover .smartphone, a.tel__link__header:focus .smartphone,
+a.tel__link__header:hover .smartphone,
+a.tel__link__header:focus .smartphone,
 a.tel__link__header:hover .smartphone,
 a.tel__link__header:focus .smartphone {
   fill: #2196f3;
@@ -340,7 +342,7 @@ a.tel__link__header:focus .smartphone {
   width: 270px;
 }
 
-.qualities__item:nth-child(-n+3) {
+.qualities__item:nth-child(-n + 3) {
   margin-right: 30px;
 }
 
@@ -987,15 +989,6 @@ a.tel__link__footer:focus {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.inputs__container__item textarea::-moz-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .inputs__container__item textarea:-ms-input-placeholder {
   font-family: "Roboto";
   font-weight: 400;
@@ -1177,4 +1170,5 @@ a.tel__link__footer:focus {
 .inputs__form__input:focus {
   cursor: pointer;
   border: 1px solid #2196f3;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */

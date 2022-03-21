@@ -251,7 +251,8 @@ a.tel__link__header:focus {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a.mail__link__header:hover .envelope, a.mail__link__header:focus .envelope,
+a.mail__link__header:hover .envelope,
+a.mail__link__header:focus .envelope,
 a.mail__link__header:hover .envelope,
 a.mail__link__header:focus .envelope {
   fill: #2196f3;
@@ -261,7 +262,8 @@ a.mail__link__header:focus .envelope {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a.tel__link__header:hover .smartphone, a.tel__link__header:focus .smartphone,
+a.tel__link__header:hover .smartphone,
+a.tel__link__header:focus .smartphone,
 a.tel__link__header:hover .smartphone,
 a.tel__link__header:focus .smartphone {
   fill: #2196f3;
@@ -283,7 +285,7 @@ a.tel__link__header:focus .smartphone {
   margin-right: auto;
 }
 
-.projects__filter__item:nth-child(-n+4) {
+.projects__filter__item:nth-child(-n + 4) {
   margin-right: 8px;
 }
 
@@ -601,4 +603,5 @@ a.tel__link__footer:focus {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}/*# sourceMappingURL=portfolio.css.map */
+}
+/*# sourceMappingURL=portfolio.css.map */
