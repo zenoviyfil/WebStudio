@@ -36,6 +36,10 @@ $background-img-color: #eeeeee;
   line-height: 1.16;
   color: $principal-text-color;
   text-align: center;
+
+  @media screen and(max-width:768px) {
+    margin: 15px;
+  }
 }
 
 .project__container {

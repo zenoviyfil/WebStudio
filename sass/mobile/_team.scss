@@ -1,9 +1,19 @@
 .team__section {
   background-color: $filter-btn-color;
+
+  @media screen and(max-width:768px) {
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .team__container {
-  display: block;
+  @media screen and(max-width:768px) {
+    display: block;
+    width: 480px;
+    justify-content: center;
+  }
 }
 
 .team {
@@ -14,6 +24,18 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+  }
+
+  @media screen and(max-width:768px) {
+    .team__card {
+      width: 450px;
+      display: block;
+      margin: 15px 0px;
+      background-color: $white-color;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+    }
   }
 }
 
@@ -61,7 +83,7 @@
 .social__list {
   display: flex;
   margin-top: 16px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .social__list__item {
@@ -79,6 +101,10 @@
 
 .social__list__item {
   margin-right: 10px;
+
+  @media screen and(max-width:768px) {
+    margin-right: 0;
+  }
 }
 
 .social__list__item {
