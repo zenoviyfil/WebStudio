@@ -1,5 +1,5 @@
 .container__clients {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: block;
     width: 768px;
     padding-left: 15px;
@@ -10,7 +10,7 @@
 }
 
 .clients__list {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
@@ -19,7 +19,7 @@
 }
 
 .clients__item {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
     width: 226px;
     height: 92px;
@@ -56,7 +56,7 @@
 
 .clients__item {
   a {
-    @media screen and(min-width:769px) {
+    @media screen and(min-width:769px) and (max-width: 1200px) {
       width: 226px;
       height: 92px;
       border-radius: 4px;

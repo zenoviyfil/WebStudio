@@ -1,5 +1,5 @@
 .flex__container {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@ footer {
 }
 
 .footer {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     padding-left: 15px;
     padding-right: 15px;
@@ -125,7 +125,7 @@ footer {
 }
 
 .footer__submit {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     margin-top: 60px;
 
@@ -139,7 +139,7 @@ footer {
 }
 
 .footer__submit__area {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: block;
     margin-top: 20px;
     margin-right: auto;
@@ -148,7 +148,7 @@ footer {
 }
 
 .footer__submit__input {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: block;
     justify-content: center;
     margin-right: auto;
@@ -165,7 +165,7 @@ footer {
 }
 
 .footer__submit__btn {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 200px;
     height: 50px;
     padding: 10px 28px;

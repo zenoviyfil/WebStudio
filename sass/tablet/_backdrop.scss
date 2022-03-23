@@ -19,7 +19,7 @@
 }
 
 .backdrop__modal {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -137,7 +137,7 @@
 }
 
 .policy__checkbox {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     position: relative;
     width: 370px;
     margin-top: 20px;
@@ -173,7 +173,7 @@
 
 .policy__checkbox {
   .policy__checkbox__label {
-    @media screen and(min-width:769px) {
+    @media screen and(min-width:769px) and (max-width: 1200px) {
       font-family: "Roboto";
       font-weight: 400;
       font-size: 12px;
@@ -185,7 +185,7 @@
 }
 
 .policy__doc {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 12px;
@@ -215,7 +215,7 @@
 
 .inputs__container__item {
   .inputs__icon__name {
-    @media screen and(min-width:769px) {
+    @media screen and(min-width:769px) and (max-width: 1200px) {
       position: absolute;
       width: 12px;
       height: 12px;
@@ -229,7 +229,7 @@
 
 .inputs__container__item {
   .inputs__icon__tel {
-    @media screen and(min-width:769px) {
+    @media screen and(min-width:769px) and (max-width: 1200px) {
       position: absolute;
       width: 13px;
       height: 13px;
@@ -243,7 +243,7 @@
 
 .inputs__container__item {
   .inputs__icon__email {
-    @media screen and(min-width:769px) {
+    @media screen and(min-width:769px) and (max-width: 1200px) {
       position: absolute;
       width: 15px;
       height: 12px;

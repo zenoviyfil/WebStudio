@@ -1,39 +1,43 @@
 .hero__section {
-  max-width: 1600px;
-  height: 600px;
-  padding: 0;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url(../../imges/header-computer.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  @media screen and(min-width:1201px) {
+    max-width: 1600px;
+    height: 600px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../../imges/header-computer.png);
+    background-size: 1600px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero__section {
-      background-image: url(../../imges/header-computer-big.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero__section {
+        background-image: url(../../imges/header-computer-big.png);
+      }
     }
-  }
-  @media (min-device-pixel-ratio: 3),
-    (min-resolution: 288dpi),
-    (min-resolution: 3dppx) {
-    .hero__section {
-      background-image: url(../../imges/header-computer-extra.png);
+    @media (min-device-pixel-ratio: 3),
+      (min-resolution: 288dpi),
+      (min-resolution: 3dppx) {
+      .hero__section {
+        background-image: url(../../imges/header-computer-extra.png);
+      }
     }
   }
 }
 
 .hero {
-  padding: 200px 0;
-  margin-right: auto;
-  margin-left: auto;
-  background: rgba(47, 48, 58, 0.4);
+  @media screen and(min-width:1201px) {
+    padding: 200px 0;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(47, 48, 58, 0.4);
+  }
 }
 
 .hero__main__theme {
-  @media screen and(min-width:1200px) {
+  @media screen and(min-width:1201px) {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 44px;
@@ -48,20 +52,22 @@
 }
 
 .hero__main__theme__btn {
-  display: flex;
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  color: $white-color;
-  background: $link-color;
-  border-radius: 4px;
-  border: none;
-  padding: 10px 32px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and(min-width:1201px) {
+    display: flex;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    color: $white-color;
+    background: $link-color;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .hero__main__theme__btn {

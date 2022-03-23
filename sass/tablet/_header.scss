@@ -1,5 +1,5 @@
 .header {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     margin-right: auto;
     margin-left: auto;
@@ -8,21 +8,21 @@
 }
 
 .computer__menu__container {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
     align-items: center;
   }
 }
 
 .nav__menu {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     margin-right: 84px;
     align-items: center;
   }
 }
 
 .nav__menu__list {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
   }
 }
@@ -40,7 +40,7 @@
 }
 
 .contacts {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: block;
   }
 
@@ -67,7 +67,7 @@
 
 .mail__link__header,
 .tel__link__header {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
@@ -82,7 +82,7 @@
 }
 
 .mail__link__header {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     margin-bottom: 10px;
   }
 }

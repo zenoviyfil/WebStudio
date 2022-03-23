@@ -1,5 +1,5 @@
 .container__qualities {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     width: 768px;
@@ -9,7 +9,7 @@
 }
 
 .qualities__item {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 354px;
     margin: 15px;
   }
@@ -36,7 +36,7 @@
 }
 
 .qualities__list__item {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     display: flex;
     justify-content: center;
     align-items: center;

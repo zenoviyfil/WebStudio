@@ -1,10 +1,27 @@
 .header {
-  border-bottom: 1px solid $header-border-color;
+  @media screen and(min-width:1201px) {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid $header-border-color;
+  }
+}
+
+.computer__menu__container {
+  @media screen and(min-width:1201px) {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
 }
 
 .nav__menu {
-  align-items: center;
+  @media screen and(min-width:1201px) {
+    align-items: center;
+    margin-right: 300px;
+  }
 }
+
 .nav__menu__list {
   display: flex;
 }
@@ -22,20 +39,16 @@
 }
 
 .contacts {
-  display: flex;
-  list-style-type: none;
-  margin-left: auto;
-}
-
-.contacts {
-  li {
-    margin-right: 30px;
+  @media screen and(min-width:1201px) {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
   }
 }
 
-.contacts {
-  li:nth-child(2n) {
-    margin-right: 0px;
+a.mail__link__header {
+  @media screen and(min-width:1201px) {
+    margin-right: 30px;
   }
 }
 

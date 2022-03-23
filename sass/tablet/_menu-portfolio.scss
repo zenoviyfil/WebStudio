@@ -1,14 +1,18 @@
 .projects__filter__list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  @media screen and(min-width:769px) and (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .projects__filter__item {
   &:nth-child(-n + 4) {
-    margin-right: 8px;
+    @media screen and(min-width:769px) and (max-width: 1200px) {
+      margin-right: 8px;
+    }
   }
 }
 

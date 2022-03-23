@@ -1,5 +1,5 @@
 .hero__section {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     height: 400px;
     padding: 0;
@@ -21,7 +21,7 @@
 }
 
 .hero {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     padding: 118px 0;
     margin-right: auto;
@@ -31,7 +31,7 @@
 }
 
 .hero__main__theme {
-  @media screen and(min-width:769px) {
+  @media screen and(min-width:769px) and (max-width: 1200px) {
     width: 768px;
     font-family: "Roboto";
     font-style: normal;
