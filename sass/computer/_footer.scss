@@ -1,6 +1,8 @@
 .flex__container {
-  display: flex;
-  align-items: baseline;
+  @media screen and(min-width:1200px) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 footer {
@@ -118,24 +120,30 @@ footer {
 }
 
 .footer__submit {
-  margin-left: auto;
+  @media screen and(min-width:1200px) {
+    margin-left: auto;
+  }
 }
 
 .footer__submit__area {
-  display: flex;
-  margin-top: 20px;
+  @media screen and(min-width:1200px) {
+    display: flex;
+    margin-top: 20px;
+  }
 }
 
 .footer__submit__input {
-  width: 358px;
-  height: 50px;
-  margin-right: 12px;
-  padding: 15px 16px;
-  color: $white-color;
-  background-color: $theme-color;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+  @media screen and(min-width:1200px) {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 15px 16px;
+    color: $white-color;
+    background-color: $theme-color;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
 }
 
 .footer__submit__btn {

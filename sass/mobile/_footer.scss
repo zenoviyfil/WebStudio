@@ -1,7 +1,4 @@
 .flex__container {
-  display: flex;
-  align-items: baseline;
-
   @media screen and(max-width:768px) {
     display: block;
     justify-content: center;
@@ -10,12 +7,10 @@
 }
 
 footer {
-  padding: 60px 0;
-  background-color: $theme-color;
-
   @media screen and(max-width:768px) {
     display: block;
     min-width: 480px;
+    padding: 60px 0;
     margin-right: auto;
     margin-left: auto;
     background-color: $theme-color;
@@ -23,15 +18,13 @@ footer {
 }
 
 .footer {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
   @media screen and(max-width:768px) {
     display: block;
     width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: $theme-color;
   }
 }
@@ -177,8 +170,6 @@ footer {
 }
 
 .footer__submit {
-  margin-left: auto;
-
   @media screen and(max-width:768px) {
     margin-top: 60px;
     margin-right: auto;
@@ -187,25 +178,12 @@ footer {
 }
 
 .footer__submit__area {
-  display: flex;
-  margin-top: 20px;
-
   @media screen and(max-width:768px) {
     display: block;
   }
 }
 
 .footer__submit__input {
-  width: 358px;
-  height: 50px;
-  margin-right: 12px;
-  padding: 15px 16px;
-  color: $white-color;
-  background-color: $theme-color;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-
   @media screen and(max-width:768px) {
     display: block;
     justify-content: center;
@@ -213,6 +191,9 @@ footer {
     margin-left: auto;
     width: 450px;
     height: 50px;
+    padding: 15px 16px;
+    color: $white-color;
+    background-color: $theme-color;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -221,23 +202,6 @@ footer {
 }
 
 .footer__submit__btn {
-  width: 200px;
-  height: 50px;
-  padding: 10px 28px;
-  background-color: $link-color;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  letter-spacing: 0.06em;
-  color: $white-color;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-
   @media screen and(max-width:768px) {
     width: 200px;
     height: 50px;
