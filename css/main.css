@@ -333,7 +333,7 @@ a.tel__link__header:focus .smartphone {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../../imges/header-computer.png);
+    background-image: url(../imges/header-computer.png);
     background-size: 1600px 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -342,13 +342,13 @@ a.tel__link__header:focus .smartphone {
 
 @media screen and (min-width: 1201px) and (min-device-pixel-ratio: 2), screen and (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1201px) and (min-resolution: 192dpi), screen and (min-width: 1201px) and (min-resolution: 2dppx) {
   .hero__section .hero__section {
-    background-image: url(../../imges/header-computer-big.png);
+    background-image: url(../imges/header-computer-big.png);
   }
 }
 
 @media screen and (min-width: 1201px) and (min-device-pixel-ratio: 3), screen and (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 1201px) and (min-resolution: 288dpi), screen and (min-width: 1201px) and (min-resolution: 3dppx) {
   .hero__section .hero__section {
-    background-image: url(../../imges/header-computer-extra.png);
+    background-image: url(../imges/header-computer-extra.png);
   }
 }
 
