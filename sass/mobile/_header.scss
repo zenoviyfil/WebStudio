@@ -5,15 +5,25 @@
 }
 
 .header {
-  width: 480px;
-  margin-right: auto;
-  margin-left: auto;
-  border-bottom: 1px solid $header-border-color;
+  @media screen and(max-width:768px) {
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid $header-border-color;
+  }
+}
+
+.computer__menu__container {
+  @media screen and(max-width:768px) {
+    display: none;
+  }
 }
 
 .nav__menu__list {
-  display: block;
-  list-style-type: none;
+  @media screen and(max-width:768px) {
+    display: block;
+    list-style-type: none;
+  }
 }
 
 .nav__menu__list {

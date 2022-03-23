@@ -57,19 +57,19 @@ section {
           align-items: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
   .container {
     width: 480px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .container {
     width: 768px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
   .container {
     width: 1200px;
   }
@@ -667,16 +667,29 @@ a.tel__link__footer:focus {
   border-bottom: 1px solid #ececec;
 }
 
+@media screen and (min-width: 769px) {
+  .computer__menu__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .nav__menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.nav__menu__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (max-width: 1200px) {
+  .nav__menu__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .nav__menu__list li {
@@ -687,16 +700,18 @@ a.tel__link__footer:focus {
   margin-right: 0;
 }
 
-.contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  margin-left: auto;
+@media screen and (min-width: 769px) {
+  .contacts {
+    display: block;
+    padding: 21px 0px;
+  }
 }
 
-.contacts li {
-  margin-right: 30px;
+@media screen and (min-width: 769px) {
+  .contacts li {
+    padding: 21px 0px;
+    margin: 0;
+  }
 }
 
 .contacts li:nth-child(2n) {
@@ -1236,6 +1251,15 @@ a.tel__link__footer:focus {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .mobile__menu__button {
+    display: none;
+  }
+  .mobile__menu__container {
+    display: none;
+  }
+}
+
 .header__container {
   position: relative;
   display: -webkit-box;
@@ -1246,16 +1270,26 @@ a.tel__link__footer:focus {
           justify-content: space-between;
 }
 
-.header {
-  width: 480px;
-  margin-right: auto;
-  margin-left: auto;
-  border-bottom: 1px solid #ececec;
+@media screen and (max-width: 768px) {
+  .header {
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #ececec;
+  }
 }
 
-.nav__menu__list {
-  display: block;
-  list-style-type: none;
+@media screen and (max-width: 768px) {
+  .computer__menu__container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu__list {
+    display: block;
+    list-style-type: none;
+  }
 }
 
 @media screen and (max-width: 768px) {

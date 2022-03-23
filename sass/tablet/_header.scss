@@ -2,11 +2,21 @@
   border-bottom: 1px solid $header-border-color;
 }
 
+.computer__menu__container {
+  @media screen and(min-width:769px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .nav__menu {
   align-items: center;
 }
+
 .nav__menu__list {
-  display: flex;
+  @media screen and(max-width:1200px) {
+    display: flex;
+  }
 }
 
 .nav__menu__list {
@@ -22,14 +32,18 @@
 }
 
 .contacts {
-  display: flex;
-  list-style-type: none;
-  margin-left: auto;
+  @media screen and(min-width:769px) {
+    display: block;
+    padding: 21px 0px;
+  }
 }
 
 .contacts {
   li {
-    margin-right: 30px;
+    @media screen and(min-width:769px) {
+      padding: 21px 0px;
+      margin: 0;
+    }
   }
 }
 

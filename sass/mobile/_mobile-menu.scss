@@ -67,3 +67,12 @@
     }
   }
 }
+
+@media screen and(min-width:769px) {
+  .mobile__menu__button {
+    display: none;
+  }
+  .mobile__menu__container {
+    display: none;
+  }
+}
