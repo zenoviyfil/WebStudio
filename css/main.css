@@ -1497,7 +1497,7 @@ a.tel__link__header:focus .smartphone {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../../imges/header-tablet.png);
+    background-image: url(../imges/header-tablet.png);
     background-size: 768px 400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1506,7 +1506,7 @@ a.tel__link__header:focus .smartphone {
 
 @media screen and (min-width: 769px) and (max-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (max-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (max-width: 1200px) and (min-resolution: 2dppx) {
   .hero__section .hero__section {
-    background-image: url(../../imges/header-tablet-double.png);
+    background-image: url(../imges/header-tablet-double.png);
   }
 }
 
@@ -2777,7 +2777,7 @@ a.tel__link__header:focus .smartphone {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../../imges/header-mobile.png);
+    background-image: url(../imges/header-mobile.png);
     background-size: 480px 400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -2786,7 +2786,7 @@ a.tel__link__header:focus .smartphone {
 
 @media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 768px) and (min-resolution: 2dppx) {
   .hero__section .hero__section {
-    background-image: url(../../imges/header-mobile-double.png);
+    background-image: url(../imges/header-mobile-double.png);
   }
 }
 

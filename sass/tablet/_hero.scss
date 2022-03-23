@@ -5,7 +5,7 @@
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../../imges/header-tablet.png);
+    background-image: url(../imges/header-tablet.png);
     background-size: 768px 400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,7 +14,7 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .hero__section {
-        background-image: url(../../imges/header-tablet-double.png);
+        background-image: url(../imges/header-tablet-double.png);
       }
     }
   }
