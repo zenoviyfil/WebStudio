@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./dist/css/contacts.min.css" />
+    <link rel="stylesheet" href="./css/contacts.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -21,36 +21,91 @@
   <body>
     <header class="header">
       <div class="header__container container">
-        <a class="logo__link" href="index.html">Web<span class="header__logo__link__color">Studio</span></a>
-        <nav class="nav__menu">
-          <ul class="nav__menu__list">
-            <li>
-              <a class="index__link" href="index.html" target="_self">Студия</a>
+        <a class="logo__link" href="index.html"
+          >Web<span class="header__logo__link__color">Studio</span></a
+        >
+        <button
+          type="button"
+          class="mobile__menu__button"
+          aria-expanded="false"
+          aria-controls="mobile__menu__container"
+          mobile-data-menu-button
+        >
+          <svg
+            class="mobile__menu__icons"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use class="icon__cross" href="./imges/icons.svg#cross-btn"></use>
+            <use class="icon__burger" href="./imges/icons.svg#burger-btn"></use>
+          </svg>
+        </button>
+        <div
+          class="mobile__menu__container"
+          id="mobile__menu__container"
+          data-menu
+        >
+          <nav class="nav__menu">
+            <ul class="nav__menu__list">
+              <li>
+                <a class="index__link active" href="index.html" target="_self"
+                  >Студия</a
+                >
+              </li>
+              <li>
+                <a class="portfolio__link" href="portfolio.html" target="_self"
+                  >Портфолио</a
+                >
+              </li>
+              <li>
+                <a class="contacts__link" href="contacts.html" rel=""
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <ul class="contacts">
+            <li class="contacts__item">
+              <a class="mail__link__header" href="mailto:info@devstudio.com">
+                <svg class="envelope">
+                  <use href="./imges/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
             </li>
-            <li>
-              <a class="portfolio__link" href="portfolio.html" target="_self">Портфолио</a>
-            </li>
-            <li>
-              <a class="contacts__link active" href="contacts.html" rel="">Контакты</a>
+            <li class="contacts__item">
+              <a class="tel__link__header" href="tel:+380961111111">
+                <svg class="smartphone">
+                  <use href="./imges/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
             </li>
           </ul>
-        </nav>
-        <ul class="contacts">
-          <li class="contacts__item">
-            <a class="mail__link__header" href="mailto:info@devstudio.com">
-              <svg class="envelope">
-                <use href="./imges/icons.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com</a>
-          </li>
-          <li class="contacts__item">
-            <a class="tel__link__header" href="tel:+380961111111">
-              <svg class="smartphone">
-                <use href="./imges/icons.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a>
-          </li>
-        </ul>
+          <ul class="contacts__mobile">
+            <li class="contacts__item">
+              <a class="tel__link__header" href="tel:+380961111111">
+                <svg class="smartphone">
+                  <use href="./imges/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="contacts__item">
+              <a class="mail__link__header" href="mailto:info@devstudio.com">
+                <svg class="envelope">
+                  <use href="./imges/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile__social__list">
+            <li class="mobile__social__item"><a href="#">Instagram</a></li>
+            <li class="mobile__social__item"><a href="#">Twitter</a></li>
+            <li class="mobile__social__item"><a href="#">Facebook</a></li>
+            <li class="mobile__social__item"><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -62,21 +117,27 @@
       <div class="footer">
         <div class="flex__container">
           <div class="block__container">
-            <a class="footer__logo__link" href="index.html">Web<span class="footer__logo__link__color">Studio</span></a>
+            <a class="footer__logo__link" href="index.html"
+              >Web<span class="footer__logo__link__color">Studio</span></a
+            >
             <address class="address__container">
               <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
               <ul class="footer__contacts__list">
                 <li class="footer__contacts__item">
-                  <a class="mail__link__footer" href="mailto:info@example.com">info@example.com</a>
+                  <a class="mail__link__footer" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
                 </li>
                 <li class="footer__contacts__item">
-                  <a class="tel__link__footer" href="tell:+380991111111">+38 099 111 11 11</a>
+                  <a class="tel__link__footer" href="tell:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
           </div>
           <div class="footer__social">
-            <h2 class="social__header">присоединяйтесь</h2>
+            <p2 class="social__title">присоединяйтесь</p2>
             <ul class="footer__social__list">
               <li class="footer__social__item">
                 <a href="#">
@@ -109,9 +170,13 @@
             </ul>
           </div>
           <div class="footer__submit">
-            <h2 class="social__header">Подпишитесь на рассылку</h2>
+            <p class="social__title">Подпишитесь на рассылку</p>
             <div class="footer__submit__area">
-              <input class="footer__submit__input" type="text" placeholder="E-mail" />
+              <input
+                class="footer__submit__input"
+                type="text"
+                placeholder="E-mail"
+              />
               <button class="footer__submit__btn" type="submit">
                 Подписаться
                 <svg class="footer__submit__btn__icon">
@@ -123,5 +188,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
