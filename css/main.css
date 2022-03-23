@@ -3385,6 +3385,7 @@ a.tel__link__header:focus .smartphone {
 @media screen and (max-width: 768px) {
   .footer__submit__area {
     display: block;
+    margin-top: 20px;
   }
 }
 
