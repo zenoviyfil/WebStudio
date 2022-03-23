@@ -1,14 +1,16 @@
 .logo__link {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: $link-color;
-  margin-right: 93px;
-  padding: 24px 0px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and(min-width:1200px) {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $link-color;
+    margin-right: 93px;
+    padding: 24px 0px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .header__logo__link__color {

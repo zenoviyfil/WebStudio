@@ -33,16 +33,18 @@
 }
 
 .hero__main__theme {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  color: $white-color;
-  text-transform: uppercase;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  @media screen and(min-width:1200px) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: $white-color;
+    text-transform: uppercase;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }
 
 .hero__main__theme__btn {

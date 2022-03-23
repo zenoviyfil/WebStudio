@@ -1,48 +1,51 @@
 .hero__section {
-  max-width: 1600px;
-  height: 600px;
-  padding: 0;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url(../../imges/header-computer.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  @media screen and(min-width:769px) {
+    width: 768px;
+    height: 400px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../../imges/header-tablet.png);
+    background-size: 768px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero__section {
-      background-image: url(../../imges/header-computer-big.png);
-    }
-  }
-  @media (min-device-pixel-ratio: 3),
-    (min-resolution: 288dpi),
-    (min-resolution: 3dppx) {
-    .hero__section {
-      background-image: url(../../imges/header-computer-extra.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero__section {
+        background-image: url(../../imges/header-tablet-double.png);
+      }
     }
   }
 }
 
 .hero {
-  padding: 200px 0;
-  margin-right: auto;
-  margin-left: auto;
-  background: rgba(47, 48, 58, 0.4);
+  @media screen and(min-width:769px) {
+    width: 768px;
+    padding: 118px 0;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(47, 48, 58, 0.4);
+  }
 }
 
 .hero__main__theme {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  color: $white-color;
-  text-transform: uppercase;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  @media screen and(min-width:769px) {
+    width: 768px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    color: $white-color;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0px 204px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .hero__main__theme__btn {
