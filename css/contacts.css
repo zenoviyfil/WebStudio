@@ -40,8 +40,16 @@ button:hover, button:focus {
   cursor: pointer;
 }
 
-section {
-  padding: 60px 0;
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  section {
+    padding: 90px 0;
+  }
 }
 
 .container {
@@ -94,17 +102,26 @@ section {
   }
 }
 
-.section__header {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  color: #212121;
-  text-align: center;
+@media screen and (min-width: 1201px) {
+  .section__header {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #212121;
+    text-align: center;
+    margin: 0;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1200px) {
   .section__header {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center;
     margin: 15px;
   }
 }
