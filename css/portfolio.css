@@ -162,7 +162,6 @@ button:hover, button:focus {
 
 @media screen and (min-width: 1201px) {
   .header {
-    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px solid #ececec;
@@ -725,7 +724,6 @@ a.tel__link__footer:focus {
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .header {
-    width: 768px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px solid #ececec;
@@ -1351,10 +1349,10 @@ a.tel__link__footer:focus {
   }
   .mobile__menu__container {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     padding: 48px 40px;
     background-color: #fff;
@@ -1413,10 +1411,11 @@ a.tel__link__footer:focus {
 
 @media screen and (max-width: 768px) {
   .nav__menu__list li {
+    margin-right: 0;
     margin-bottom: 35px;
   }
   .nav__menu__list li:last-child {
-    margin-bottom: 302px;
+    margin-bottom: 0;
   }
 }
 
@@ -1430,6 +1429,12 @@ a.tel__link__footer:focus {
   }
 }
 
+.contacts__mobile {
+  position: fixed;
+  bottom: 70px;
+  padding: 64px 0px;
+}
+
 .contacts__mobile li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1438,6 +1443,10 @@ a.tel__link__footer:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 32px;
+}
+
+.contacts__mobile li:last-child {
+  margin-bottom: 0;
 }
 
 .index__link,
@@ -1531,6 +1540,8 @@ a.tel__link__footer:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
+  bottom: 48px;
   list-style-type: none;
 }
 

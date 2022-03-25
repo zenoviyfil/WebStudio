@@ -29,10 +29,11 @@
 .nav__menu__list {
   li {
     @media screen and(max-width:768px) {
+      margin-right: 0;
       margin-bottom: 35px;
 
       &:last-child {
-        margin-bottom: 302px;
+        margin-bottom: 0;
       }
     }
   }
@@ -47,10 +48,17 @@
 }
 
 .contacts__mobile {
+  position: fixed;
+  bottom: 70px;
+  padding: 64px 0px;
   li {
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -131,6 +139,8 @@
 
 .mobile__social__list {
   display: flex;
+  position: fixed;
+  bottom: 48px;
   list-style-type: none;
 
   .mobile__social__item {
